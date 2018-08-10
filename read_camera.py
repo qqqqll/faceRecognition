@@ -1,9 +1,14 @@
 # -*- coding:utf-8 -*-
-__author__ = '万壑'
+__author__ = 'alluser'
 
 import cv2
 from train_model import Model
 from read_data import read_name_list
+
+def copy():
+    c= 1
+    return c
+
 
 class Camera_reader(object):
     #在初始化camera的时候建立模型，并加载已经训练好的模型

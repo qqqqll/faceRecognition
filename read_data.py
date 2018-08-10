@@ -1,11 +1,15 @@
 #-*-coding:utf8-*-
-__author__ = '万壑'
+__author__ = 'alluser'
 
 import os
 import cv2
 import numpy as np
 
 from read_img import endwith
+
+def copy():
+    d= 1
+    return d
 
 #输入一个文件路径，对其下的每个文件夹下的图片读取，并对每个文件夹给一个不同的Label
 #返回一个img的list,返回一个对应label的list,返回一下有几个文件夹（有几种label)

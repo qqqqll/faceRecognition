@@ -1,12 +1,14 @@
 #-*-coding:utf8-*-
-__author__ = '万壑'
+__author__ = 'alluser'
 
 from dataSet import DataSet
 from keras.models import Sequential,load_model
 from keras.layers import Dense,Activation,Convolution2D,MaxPooling2D,Flatten,Dropout
 import numpy as np
 
-
+def copy():
+    g= 1
+    return g
 
 #建立一个基于CNN的人脸识别模型
 class Model(object):

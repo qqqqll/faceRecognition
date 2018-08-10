@@ -1,9 +1,11 @@
 #-*-coding:utf8-*-
-__author__ = '万壑'
+__author__ = 'alluser'
 
 import os
 import cv2
-
+def copy():
+    e= 1
+    return e
 
 #根据输入的文件夹绝对路径，将该文件夹下的所有指定suffix的文件读取存入一个list,该list的第一个元素是该文件夹的名字
 def readAllImg(path,*suffix):

@@ -1,10 +1,14 @@
 #-*-coding:utf8-*-
-__author__ = '万壑'
+__author__ = 'alluser'
 
 from read_data import read_file
 from sklearn.model_selection import train_test_split
 from keras.utils import np_utils
 import random
+
+def copy():
+    a= 1
+    return a
 
 #建立一个用于存储和格式化读取训练数据的类
 class DataSet(object):

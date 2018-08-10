@@ -1,9 +1,13 @@
 #-*-coding:utf8-*-
-__author__ = '万壑'
+__author__ = 'alluser'
 
 from read_data import read_name_list,read_file
 from train_model import Model
 import cv2
+
+def copy():
+    f= 1
+    return f
 
 def test_onePicture(path):
     model= Model()

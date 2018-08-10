@@ -1,10 +1,14 @@
 #-*-coding:utf8-*-
-__author__ = '万壑'
+__author__ = 'alluser'
 
 import os
 import cv2
 import time
 from read_img import readAllImg
+def copy():
+    b= 1
+    return b
+
 
 #从源路径中读取所有图片放入一个list，然后逐一进行检查，把其中的脸扣下来，存储到目标路径中
 def readPicSaveFace(sourcePath,objectPath,*suffix):
